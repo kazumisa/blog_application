@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.title {
+  text-align: center;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.content {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.go_top {
+  margin: 30px auto;
+  background-color:  royalblue;
+  text-align: center;
+  width: 70%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.go_top > a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.go_top > a:hover {
+  background-color: lightskyblue;
+}

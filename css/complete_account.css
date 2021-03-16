@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.top {
+  margin: 30px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.top span {
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+}
+
+.content {
+  margin: 30px;
+  text-align: center;
+}
+
+.next {
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+  border: 2px solid gray;
+  background-color: royalblue;
+}
+
+.next a {
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.next a:hover {
+  background-color: lightskyblue;
+}
+

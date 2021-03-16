@@ -1,0 +1,97 @@
+/* common */
+body {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.title, .content, .category, .publish_status, .submit {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.img {
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+#title {
+  width: 70%;
+  height: 30px;
+  padding: 0;
+}
+
+#content {
+  width: 70%;
+}
+
+#submit {
+  width: 70%;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: lightskyblue;
+}
+
+.msg {
+  width: 70%;
+  height: 30px;
+  margin: 10px auto;
+}
+.msg > p {
+  color: red;
+  text-align: center;
+  line-height: 30px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.back {
+  margin: 15px auto;
+  width: 70%;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  
+}
+
+.back > a {
+  display: block;
+  color: white;
+  width: 70%;
+  text-decoration: none;
+  background-color: royalblue;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 4px;
+  margin:  auto;
+}
+
+.back > a:hover {
+  background-color: skyblue;
+}
+
+@media (min-width: 600px) {
+  form {
+    border: 1px solid gray;
+    width: 500px;
+    margin: 30px auto;
+  }
+}

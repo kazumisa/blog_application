@@ -1,0 +1,120 @@
+/* common */
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+
+.top {
+  width: 70%;
+  margin: 16px auto;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.file_up {
+  margin-top: 16px;
+}
+
+.title {
+  margin-top: 16px;
+}
+
+#title {
+  width: 70%;
+  height: 30px;
+  padding: 0;
+}
+
+.content {
+  margin-top: 16px;
+}
+
+#content {
+  width: 70%;
+}
+
+.category {
+  margin-top: 16px;
+}
+
+.publish_status {
+  margin-top: 16px;
+}
+
+
+#submit {
+  width: 70%;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: lightskyblue;
+}
+
+.msg {
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.msg > p {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.err_msg {
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.err_msg > p{
+  text-align: center;
+}
+
+.back {
+  margin: 15px auto;
+  width: 70%;
+  height: 30px;
+  background-color: royalblue;
+  border-radius: 4px;
+}
+
+.back > a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 4px;
+}
+
+.back > a:hover {
+  background-color: skyblue;
+}
+
+
+
+
+@media (min-width: 600px) {
+  form {
+    border: 1px solid gray;
+    width: 400px;
+  }
+}
+

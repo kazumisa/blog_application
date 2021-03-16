@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 70px;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    padding: 0 15px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0;
+    line-height: 70px;
+    padding: 0 15px;
+  }
+  
+  #add, #menu {
+    font-size: 30px;
+    line-height: 70px;
+    margin: 0 5px;
+  }
+  
+  #add:hover, #menu:hover {
+    cursor: pointer;
+  } 
+  
+  .sp_main {
+    margin-top: 150px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  li {
+    position: relative;
+    width: 32.9%;
+    margin: 1px;
+  }
+  
+  li:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  
+  img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: cover;
+  }
+
+  .post_photo > img {
+    margin: 0;
+  } 
+  
+  .mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 2;
+  
+    transition: opacity .3s;
+  }
+  
+  .window {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 3;
+  
+    transform: translateY(1000px);
+    transition: transform .3s;
+  } 
+  
+  .menw_window {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 3;
+  
+    transform: translateY(1000px);
+    transition: transform .3s;
+  }
+  
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0px);
+  }
+  
+  .line {
+    text-align: center;
+  }
+  
+  #line {
+    color: gray;
+    font-size: 30px;
+  }
+  
+  h3 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 0;
+    border-bottom: 1px solid gray;
+  }
+  
+  .create {
+    display: flex;
+    /* background-color: blue; */
+    margin: 20px 0;
+  }
+  
+  #create {
+    margin: 0 10px;
+  }
+  
+  .create_blog {
+    width: 100%;
+    border-bottom: 1px solid gray ;
+  }
+  
+  #create_blog {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .setting, .contact, .logout {
+    display: flex;
+    margin: 20px 0;
+  }
+  .settings_suggest, .contact_support, .logout_text {
+    width: 100%;
+    border-bottom: 1px solid gray;
+  }
+  
+  .settings_suggest > a, .contact_support > a, .logout_text > a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #settings_suggest, #contact_support, #logout {
+    margin: 0 10px;
+  }
+  
+  #input_button {
+    border: 0;
+    background-color: white;
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  /* .pc_sc {
+    display: none;
+  } */
+
+/* @media(min-width: 600px) {
+  .sp_sc {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    margin: 0;
+    line-height: 100px;
+  }
+  nav {
+    display: flex;
+    line-height: 100px;
+  }
+
+  .create > a, .setting > a, .contact > a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+  }
+
+  #logout {
+    border: 0;
+    background-color: whitesmoke;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  table {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .title {
+    width: 35%;
+    padding: 10px;
+  }
+
+  .category {
+    width: 20%;
+    padding: 10px;
+  }
+
+  .photo {
+    width: 45%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    vertical-align: middle;
+  }
+
+  .title_post {
+    text-align: center;
+  }
+
+  .category_post {
+    text-align: center;
+  }
+
+  .paging {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0;
+  }
+} */
